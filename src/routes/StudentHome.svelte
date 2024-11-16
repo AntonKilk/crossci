@@ -107,6 +107,8 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: var(--background-color, #ffffff);
+    color: var(--text-color, #000000);
   }
 
   header {
@@ -121,7 +123,7 @@
 
   .quit-button {
     background-color: #e74c3c;
-    color: white;
+    color: var(--button-text-color, white);
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -134,18 +136,20 @@
   }
 
   .task-content {
-    background: white;
+    background: var(--card-background-color, #ffffff);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
+    color: var(--text-color, #000000);
   }
 
   .chat-section {
-    background: white;
+    background: var(--card-background-color, #ffffff);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    color: var(--text-color, #000000);
   }
 
   .chat-history {
@@ -200,7 +204,7 @@
 
   h1,
   h2 {
-    color: #2c3e50;
+    color: var(--heading-color, #2c3e50);
     margin: 0;
   }
 </style>

@@ -165,6 +165,8 @@
     min-width: 480px;
     max-width: 800px;
     margin: 0 auto;
+    background-color: var(--background-color, #ffffff);
+    color: var(--text-color, #000000);
   }
 
   .header {
@@ -176,7 +178,7 @@
 
   .quit-button {
     background-color: #e74c3c;
-    color: white;
+    color: var(--button-text-color, white);
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -191,9 +193,10 @@
   .chart-container {
     margin: 20px 0;
     padding: 20px;
-    background: white;
+    background: var(--card-background-color, #ffffff);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: var(--text-color, #000000);
   }
 
   .recommendations {
@@ -202,20 +205,25 @@
 
   .task-group {
     text-align: left;
-    background: white;
+    background: var(--card-background-color, #ffffff);
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: var(--text-color, #000000);
   }
 
   h2 {
-    color: #2c3e50;
+    color: var(--heading-color, #2c3e50);
     margin: 0;
   }
 
   h3 {
-    color: #3498db;
+    color: var(--heading-color, #2c3e50);
+  }
+
+  .task-group h3 {
+    color: var(--subheading-color, #3498db);
   }
 
   ul {
@@ -225,6 +233,6 @@
 
   li {
     padding: 10px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--border-color, #eee);
   }
 </style>

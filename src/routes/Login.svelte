@@ -44,12 +44,18 @@
     max-width: 600px;
     margin: 100px auto;
     text-align: center;
+    background-color: var(--background-color, #ffffff);
+    color: var(--text-color, #000000);
   }
 
   h2 {
     font-size: 1.2em;
     color: #7f8c8d;
     margin-bottom: 2em;
+  }
+
+  .inline-paragraphs h2 {
+    color: var(--subheading-color, #7f8c8d);
   }
 
   .buttons {
