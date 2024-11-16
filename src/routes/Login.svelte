@@ -40,19 +40,10 @@
     gap: 20px;
   }
 
-  .inline-paragraphs p {
-    margin: 0;
-  }
   .login-container {
     max-width: 600px;
     margin: 100px auto;
     text-align: center;
-  }
-
-  h1 {
-    font-size: 2.5em;
-    color: #2c3e50;
-    margin-bottom: 0.5em;
   }
 
   h2 {
